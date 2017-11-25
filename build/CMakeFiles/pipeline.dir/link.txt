@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/pipeline.dir/tests/pipeline.c.o  -o pipeline -rdynamic libnanomsg.so.5.1.0 -lanl -lrt -lpthread -lnsl -lpthread -Wl,-rpath,/home/sarat/nanomsg/build 

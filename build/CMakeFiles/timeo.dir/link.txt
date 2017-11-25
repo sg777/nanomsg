@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/timeo.dir/tests/timeo.c.o  -o timeo -rdynamic libnanomsg.so.5.1.0 -lanl -lrt -lpthread -lnsl -lpthread -Wl,-rpath,/home/sarat/nanomsg/build 

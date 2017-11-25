@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/separation.dir/tests/separation.c.o  -o separation -rdynamic libnanomsg.so.5.1.0 -lanl -lrt -lpthread -lnsl -lpthread -Wl,-rpath,/home/sarat/nanomsg/build 

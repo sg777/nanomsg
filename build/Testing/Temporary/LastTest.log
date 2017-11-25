@@ -1,0 +1,648 @@
+Start testing: Nov 24 15:06 IST
+----------------------------------------------------------
+1/43 Testing: inproc
+1/43 Test: inproc
+Command: "/home/sarat/nanomsg/build/inproc" "12100"
+Directory: /home/sarat/nanomsg/build
+"inproc" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.52 sec
+----------------------------------------------------------
+Test Passed.
+"inproc" end time: Nov 24 15:06 IST
+"inproc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/43 Testing: inproc_shutdown
+2/43 Test: inproc_shutdown
+Command: "/home/sarat/nanomsg/build/inproc_shutdown" "12110"
+Directory: /home/sarat/nanomsg/build
+"inproc_shutdown" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"inproc_shutdown" end time: Nov 24 15:06 IST
+"inproc_shutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/43 Testing: ipc
+3/43 Test: ipc
+Command: "/home/sarat/nanomsg/build/ipc" "12120"
+Directory: /home/sarat/nanomsg/build
+"ipc" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"ipc" end time: Nov 24 15:06 IST
+"ipc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/43 Testing: ipc_shutdown
+4/43 Test: ipc_shutdown
+Command: "/home/sarat/nanomsg/build/ipc_shutdown" "12130"
+Directory: /home/sarat/nanomsg/build
+"ipc_shutdown" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"ipc_shutdown" end time: Nov 24 15:06 IST
+"ipc_shutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/43 Testing: ipc_stress
+5/43 Test: ipc_stress
+Command: "/home/sarat/nanomsg/build/ipc_stress" "12140"
+Directory: /home/sarat/nanomsg/build
+"ipc_stress" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.58 sec
+----------------------------------------------------------
+Test Passed.
+"ipc_stress" end time: Nov 24 15:06 IST
+"ipc_stress" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/43 Testing: tcp
+6/43 Test: tcp
+Command: "/home/sarat/nanomsg/build/tcp" "12150"
+Directory: /home/sarat/nanomsg/build
+"tcp" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Passed.
+"tcp" end time: Nov 24 15:06 IST
+"tcp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/43 Testing: tcp_shutdown
+7/43 Test: tcp_shutdown
+Command: "/home/sarat/nanomsg/build/tcp_shutdown" "12160"
+Directory: /home/sarat/nanomsg/build
+"tcp_shutdown" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.25 sec
+----------------------------------------------------------
+Test Passed.
+"tcp_shutdown" end time: Nov 24 15:06 IST
+"tcp_shutdown" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/43 Testing: ws
+8/43 Test: ws
+Command: "/home/sarat/nanomsg/build/ws" "12170"
+Directory: /home/sarat/nanomsg/build
+"ws" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.69 sec
+----------------------------------------------------------
+Test Passed.
+"ws" end time: Nov 24 15:06 IST
+"ws" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/43 Testing: pair
+9/43 Test: pair
+Command: "/home/sarat/nanomsg/build/pair" "12180"
+Directory: /home/sarat/nanomsg/build
+"pair" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"pair" end time: Nov 24 15:06 IST
+"pair" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/43 Testing: pubsub
+10/43 Test: pubsub
+Command: "/home/sarat/nanomsg/build/pubsub" "12190"
+Directory: /home/sarat/nanomsg/build
+"pubsub" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"pubsub" end time: Nov 24 15:06 IST
+"pubsub" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/43 Testing: reqrep
+11/43 Test: reqrep
+Command: "/home/sarat/nanomsg/build/reqrep" "12200"
+Directory: /home/sarat/nanomsg/build
+"reqrep" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"reqrep" end time: Nov 24 15:06 IST
+"reqrep" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/43 Testing: pipeline
+12/43 Test: pipeline
+Command: "/home/sarat/nanomsg/build/pipeline" "12210"
+Directory: /home/sarat/nanomsg/build
+"pipeline" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"pipeline" end time: Nov 24 15:06 IST
+"pipeline" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/43 Testing: survey
+13/43 Test: survey
+Command: "/home/sarat/nanomsg/build/survey" "12220"
+Directory: /home/sarat/nanomsg/build
+"survey" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"survey" end time: Nov 24 15:06 IST
+"survey" time elapsed: 00:00:01
+----------------------------------------------------------
+
+14/43 Testing: bus
+14/43 Test: bus
+Command: "/home/sarat/nanomsg/build/bus" "12230"
+Directory: /home/sarat/nanomsg/build
+"bus" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"bus" end time: Nov 24 15:06 IST
+"bus" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/43 Testing: async_shutdown
+15/43 Test: async_shutdown
+Command: "/home/sarat/nanomsg/build/async_shutdown" "12240"
+Directory: /home/sarat/nanomsg/build
+"async_shutdown" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   2.02 sec
+----------------------------------------------------------
+Test Passed.
+"async_shutdown" end time: Nov 24 15:06 IST
+"async_shutdown" time elapsed: 00:00:02
+----------------------------------------------------------
+
+16/43 Testing: block
+16/43 Test: block
+Command: "/home/sarat/nanomsg/build/block" "12250"
+Directory: /home/sarat/nanomsg/build
+"block" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"block" end time: Nov 24 15:06 IST
+"block" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/43 Testing: term
+17/43 Test: term
+Command: "/home/sarat/nanomsg/build/term" "12260"
+Directory: /home/sarat/nanomsg/build
+"term" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"term" end time: Nov 24 15:06 IST
+"term" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/43 Testing: timeo
+18/43 Test: timeo
+Command: "/home/sarat/nanomsg/build/timeo" "12270"
+Directory: /home/sarat/nanomsg/build
+"timeo" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"timeo" end time: Nov 24 15:06 IST
+"timeo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/43 Testing: iovec
+19/43 Test: iovec
+Command: "/home/sarat/nanomsg/build/iovec" "12280"
+Directory: /home/sarat/nanomsg/build
+"iovec" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"iovec" end time: Nov 24 15:06 IST
+"iovec" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/43 Testing: msg
+20/43 Test: msg
+Command: "/home/sarat/nanomsg/build/msg" "12290"
+Directory: /home/sarat/nanomsg/build
+"msg" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"msg" end time: Nov 24 15:06 IST
+"msg" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/43 Testing: prio
+21/43 Test: prio
+Command: "/home/sarat/nanomsg/build/prio" "12300"
+Directory: /home/sarat/nanomsg/build
+"prio" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"prio" end time: Nov 24 15:06 IST
+"prio" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/43 Testing: poll
+22/43 Test: poll
+Command: "/home/sarat/nanomsg/build/poll" "12310"
+Directory: /home/sarat/nanomsg/build
+"poll" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"poll" end time: Nov 24 15:06 IST
+"poll" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/43 Testing: device
+23/43 Test: device
+Command: "/home/sarat/nanomsg/build/device" "12320"
+Directory: /home/sarat/nanomsg/build
+"device" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"device" end time: Nov 24 15:06 IST
+"device" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/43 Testing: device4
+24/43 Test: device4
+Command: "/home/sarat/nanomsg/build/device4" "12330"
+Directory: /home/sarat/nanomsg/build
+"device4" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"device4" end time: Nov 24 15:06 IST
+"device4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/43 Testing: device5
+25/43 Test: device5
+Command: "/home/sarat/nanomsg/build/device5" "12340"
+Directory: /home/sarat/nanomsg/build
+"device5" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"device5" end time: Nov 24 15:06 IST
+"device5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/43 Testing: device6
+26/43 Test: device6
+Command: "/home/sarat/nanomsg/build/device6" "12350"
+Directory: /home/sarat/nanomsg/build
+"device6" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.03 sec
+----------------------------------------------------------
+Test Passed.
+"device6" end time: Nov 24 15:06 IST
+"device6" time elapsed: 00:00:01
+----------------------------------------------------------
+
+27/43 Testing: device7
+27/43 Test: device7
+Command: "/home/sarat/nanomsg/build/device7" "12360"
+Directory: /home/sarat/nanomsg/build
+"device7" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.01 sec
+----------------------------------------------------------
+Test Passed.
+"device7" end time: Nov 24 15:06 IST
+"device7" time elapsed: 00:00:01
+----------------------------------------------------------
+
+28/43 Testing: emfile
+28/43 Test: emfile
+Command: "/home/sarat/nanomsg/build/emfile" "12370"
+Directory: /home/sarat/nanomsg/build
+"emfile" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"emfile" end time: Nov 24 15:06 IST
+"emfile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/43 Testing: domain
+29/43 Test: domain
+Command: "/home/sarat/nanomsg/build/domain" "12380"
+Directory: /home/sarat/nanomsg/build
+"domain" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"domain" end time: Nov 24 15:06 IST
+"domain" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/43 Testing: trie
+30/43 Test: trie
+Command: "/home/sarat/nanomsg/build/trie" "12390"
+Directory: /home/sarat/nanomsg/build
+"trie" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"trie" end time: Nov 24 15:06 IST
+"trie" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/43 Testing: list
+31/43 Test: list
+Command: "/home/sarat/nanomsg/build/list" "12400"
+Directory: /home/sarat/nanomsg/build
+"list" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"list" end time: Nov 24 15:06 IST
+"list" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/43 Testing: hash
+32/43 Test: hash
+Command: "/home/sarat/nanomsg/build/hash" "12410"
+Directory: /home/sarat/nanomsg/build
+"hash" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"hash" end time: Nov 24 15:06 IST
+"hash" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/43 Testing: stats
+33/43 Test: stats
+Command: "/home/sarat/nanomsg/build/stats" "12420"
+Directory: /home/sarat/nanomsg/build
+"stats" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"stats" end time: Nov 24 15:06 IST
+"stats" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/43 Testing: symbol
+34/43 Test: symbol
+Command: "/home/sarat/nanomsg/build/symbol" "12430"
+Directory: /home/sarat/nanomsg/build
+"symbol" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"symbol" end time: Nov 24 15:06 IST
+"symbol" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/43 Testing: separation
+35/43 Test: separation
+Command: "/home/sarat/nanomsg/build/separation" "12440"
+Directory: /home/sarat/nanomsg/build
+"separation" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"separation" end time: Nov 24 15:06 IST
+"separation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/43 Testing: zerocopy
+36/43 Test: zerocopy
+Command: "/home/sarat/nanomsg/build/zerocopy" "12450"
+Directory: /home/sarat/nanomsg/build
+"zerocopy" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"zerocopy" end time: Nov 24 15:06 IST
+"zerocopy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/43 Testing: shutdown
+37/43 Test: shutdown
+Command: "/home/sarat/nanomsg/build/shutdown" "12460"
+Directory: /home/sarat/nanomsg/build
+"shutdown" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"shutdown" end time: Nov 24 15:06 IST
+"shutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/43 Testing: cmsg
+38/43 Test: cmsg
+Command: "/home/sarat/nanomsg/build/cmsg" "12470"
+Directory: /home/sarat/nanomsg/build
+"cmsg" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cmsg" end time: Nov 24 15:06 IST
+"cmsg" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/43 Testing: bug328
+39/43 Test: bug328
+Command: "/home/sarat/nanomsg/build/bug328" "12480"
+Directory: /home/sarat/nanomsg/build
+"bug328" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"bug328" end time: Nov 24 15:06 IST
+"bug328" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/43 Testing: bug777
+40/43 Test: bug777
+Command: "/home/sarat/nanomsg/build/bug777" "12490"
+Directory: /home/sarat/nanomsg/build
+"bug777" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"bug777" end time: Nov 24 15:06 IST
+"bug777" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/43 Testing: ws_async_shutdown
+41/43 Test: ws_async_shutdown
+Command: "/home/sarat/nanomsg/build/ws_async_shutdown" "12500"
+Directory: /home/sarat/nanomsg/build
+"ws_async_shutdown" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.05 sec
+----------------------------------------------------------
+Test Passed.
+"ws_async_shutdown" end time: Nov 24 15:06 IST
+"ws_async_shutdown" time elapsed: 00:00:01
+----------------------------------------------------------
+
+42/43 Testing: reqttl
+42/43 Test: reqttl
+Command: "/home/sarat/nanomsg/build/reqttl" "12510"
+Directory: /home/sarat/nanomsg/build
+"reqttl" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"reqttl" end time: Nov 24 15:06 IST
+"reqttl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/43 Testing: surveyttl
+43/43 Test: surveyttl
+Command: "/home/sarat/nanomsg/build/surveyttl" "12520"
+Directory: /home/sarat/nanomsg/build
+"surveyttl" start time: Nov 24 15:06 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"surveyttl" end time: Nov 24 15:06 IST
+"surveyttl" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 24 15:06 IST

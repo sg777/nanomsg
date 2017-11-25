@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/inproc_thr.dir/perf/inproc_thr.c.o  -o inproc_thr -rdynamic libnanomsg.so.5.1.0 -lanl -lrt -lpthread -lnsl -lpthread -Wl,-rpath,/home/sarat/nanomsg/build 

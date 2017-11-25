@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/bus.dir/tests/bus.c.o  -o bus -rdynamic libnanomsg.so.5.1.0 -lanl -lrt -lpthread -lnsl -lpthread -Wl,-rpath,/home/sarat/nanomsg/build 

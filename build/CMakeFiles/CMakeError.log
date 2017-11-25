@@ -1,0 +1,169 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_825f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_825f7.dir/build.make CMakeFiles/cmTC_825f7.dir/build
+make[1]: Entering directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_825f7.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_825f7.dir/CheckSymbolExists.c.o   -c /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_825f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_825f7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_825f7.dir/CheckSymbolExists.c.o  -o cmTC_825f7 -rdynamic 
+CMakeFiles/cmTC_825f7.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_825f7.dir/build.make:97: recipe for target 'cmTC_825f7' failed
+make[1]: *** [cmTC_825f7] Error 1
+make[1]: Leaving directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_825f7/fast' failed
+make: *** [cmTC_825f7/fast] Error 2
+
+File /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_deb62/fast"
+/usr/bin/make -f CMakeFiles/cmTC_deb62.dir/build.make CMakeFiles/cmTC_deb62.dir/build
+make[1]: Entering directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_deb62.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_deb62.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_deb62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deb62.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_deb62.dir/CheckFunctionExists.c.o  -o cmTC_deb62 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_deb62.dir/build.make:97: recipe for target 'cmTC_deb62' failed
+make[1]: *** [cmTC_deb62] Error 1
+make[1]: Leaving directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_deb62/fast' failed
+make: *** [cmTC_deb62/fast] Error 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8d65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8d65.dir/build.make CMakeFiles/cmTC_a8d65.dir/build
+make[1]: Entering directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8d65.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethrtime   -o CMakeFiles/cmTC_a8d65.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a8d65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8d65.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethrtime    CMakeFiles/cmTC_a8d65.dir/CheckFunctionExists.c.o  -o cmTC_a8d65 -rdynamic 
+CMakeFiles/cmTC_a8d65.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `gethrtime'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a8d65.dir/build.make:97: recipe for target 'cmTC_a8d65' failed
+make[1]: *** [cmTC_a8d65] Error 1
+make[1]: Leaving directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a8d65/fast' failed
+make: *** [cmTC_a8d65/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dac66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dac66.dir/build.make CMakeFiles/cmTC_dac66.dir/build
+make[1]: Entering directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dac66.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTC_dac66.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dac66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dac66.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTC_dac66.dir/CheckFunctionExists.c.o  -o cmTC_dac66 -rdynamic 
+CMakeFiles/cmTC_dac66.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `kqueue'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dac66.dir/build.make:97: recipe for target 'cmTC_dac66' failed
+make[1]: *** [cmTC_dac66] Error 1
+make[1]: Leaving directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dac66/fast' failed
+make: *** [cmTC_dac66/fast] Error 2
+
+
+Determining if the function sem_wait exists in the rt failed with the following output:
+Change Dir: /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c37f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c37f.dir/build.make CMakeFiles/cmTC_0c37f.dir/build
+make[1]: Entering directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c37f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sem_wait   -o CMakeFiles/cmTC_0c37f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0c37f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c37f.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sem_wait    CMakeFiles/cmTC_0c37f.dir/CheckFunctionExists.c.o  -o cmTC_0c37f -rdynamic -lrt 
+CMakeFiles/cmTC_0c37f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sem_wait'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0c37f.dir/build.make:97: recipe for target 'cmTC_0c37f' failed
+make[1]: *** [cmTC_0c37f] Error 1
+make[1]: Leaving directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0c37f/fast' failed
+make: *** [cmTC_0c37f/fast] Error 2
+
+
+Determining if the function socket exists in the socket failed with the following output:
+Change Dir: /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95ad8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95ad8.dir/build.make CMakeFiles/cmTC_95ad8.dir/build
+make[1]: Entering directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95ad8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles/cmTC_95ad8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95ad8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95ad8.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=socket    CMakeFiles/cmTC_95ad8.dir/CheckFunctionExists.c.o  -o cmTC_95ad8 -rdynamic -lsocket 
+/usr/bin/ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_95ad8.dir/build.make:97: recipe for target 'cmTC_95ad8' failed
+make[1]: *** [cmTC_95ad8] Error 1
+make[1]: Leaving directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_95ad8/fast' failed
+make: *** [cmTC_95ad8/fast] Error 2
+
+
+Determining if the atomic_cas_32 exist failed with the following output:
+Change Dir: /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95109/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95109.dir/build.make CMakeFiles/cmTC_95109.dir/build
+make[1]: Entering directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95109.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_95109.dir/CheckSymbolExists.c.o   -c /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:20: fatal error: atomic.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_95109.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_95109.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_95109.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/sarat/nanomsg/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_95109/fast' failed
+make: *** [cmTC_95109/fast] Error 2
+
+File /home/sarat/nanomsg/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <atomic.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atomic_cas_32
+  return ((int*)(&atomic_cas_32))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
